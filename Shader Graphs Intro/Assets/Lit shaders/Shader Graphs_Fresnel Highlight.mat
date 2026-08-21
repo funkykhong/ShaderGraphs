@@ -42,12 +42,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Fresnel_Power: 3.93
+    - _Fresnel_Power: 2.9
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _Base_Colour: {r: 1, g: 1, b: 1, a: 1}
-    - _Fresnel_Colour: {r: 2.143548, g: 0.8992524, b: 0, a: 1}
+    - _Fresnel_Colour: {r: 2.861805, g: 0, b: 0.22239539, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1268411830023504697
