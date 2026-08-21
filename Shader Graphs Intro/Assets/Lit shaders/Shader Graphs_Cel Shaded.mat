@@ -42,12 +42,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Ambient_Light_Strength: 0.15
+    - _Ambient_Light_Strength: 0.166
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _Base_Colour: {r: 1, g: 1, b: 1, a: 1}
-    - _Cutoff_Thresholds: {r: 0.54, g: 0.54, b: 0, a: 0}
+    - _Cutoff_Thresholds: {r: 0.42, g: 0.57, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &7189467799897424169
