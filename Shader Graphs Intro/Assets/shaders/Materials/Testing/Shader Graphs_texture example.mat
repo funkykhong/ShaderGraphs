@@ -24,16 +24,17 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 44451ce23d6f7274bbfcf9dc080fc676, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses:
   - MOTIONVECTORS
-  - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -56,12 +57,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-<<<<<<< HEAD
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
     - _CastShadows: 1
-    - _Cull: 2
+    - _Cull: 0
     - _DstBlend: 10
     - _DstBlendAlpha: 10
     - _QueueControl: 0
@@ -70,17 +70,8 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 1
     - _ZTest: 4
-<<<<<<< HEAD
     - _ZWrite: 1
     - _ZWriteControl: 1
-=======
-    - _QueueControl: 0
-    - _QueueOffset: 0
->>>>>>> parent of 87dc248 (finalised)
-=======
-    - _ZWrite: 0
-    - _ZWriteControl: 0
->>>>>>> parent of aa8e7fe (Merge branch 'main' of https://github.com/funkykhong/ShaderGraphs)
     m_Colors:
     - _MyColour: {r: 1, g: 1, b: 1, a: 1}
     - _Scroll_Velocity: {r: 1, g: 0, b: 0, a: 0}
