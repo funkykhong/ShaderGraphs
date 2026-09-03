@@ -26,7 +26,6 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHAPREMULTIPLY_ON
-  - _ALPHATEST_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -64,7 +63,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 1
+    - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -73,7 +72,7 @@ Material:
     - _DstBlend: 10
     - _DstBlendAlpha: 10
     - _Edge_Threshold: 0
-    - _Intersection_Power: 0.6
+    - _Intersection_Power: 5.6
     - _QueueControl: 0
     - _QueueOffset: 50
     - _ReceiveShadows: 1

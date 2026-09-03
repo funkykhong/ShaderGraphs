@@ -29,7 +29,15 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
+<<<<<<< HEAD:Shader Graphs Intro/Assets/shaders/Materials/Game Mats/Wave Foam.mat
+<<<<<<< HEAD:Shader Graphs Intro/Assets/shaders/Materials/Game Mats/Wave Foam.mat
+  m_CustomRenderQueue: 3000
+=======
   m_CustomRenderQueue: -1
+>>>>>>> parent of 87dc248 (finalised):Shader Graphs Intro/Assets/shaders/Wave Foam.mat
+=======
+  m_CustomRenderQueue: 2950
+>>>>>>> parent of aa8e7fe (Merge branch 'main' of https://github.com/funkykhong/ShaderGraphs):Shader Graphs Intro/Assets/shaders/Wave Foam.mat
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -56,15 +64,26 @@ Material:
     m_Ints: []
     m_Floats:
     - _Depth_Sample_Offset: 0
-    - _Foam_Distance: 2
-    - _Foam_Scale: 0
+    - _Foam_Distance: 4.08
+    - _Foam_Scale: 51
     - _QueueControl: 0
+<<<<<<< HEAD:Shader Graphs Intro/Assets/shaders/Materials/Game Mats/Wave Foam.mat
     - _QueueOffset: 0
+<<<<<<< HEAD:Shader Graphs Intro/Assets/shaders/Materials/Game Mats/Wave Foam.mat
     - _Wave_Speed: 2
-    - _Wave_Strength: 0.02
+    - _Wave_Strength: 0.001
+=======
+    - _Wave_Speed: 2.04
+    - _Wave_Strength: 0.01
+>>>>>>> parent of 87dc248 (finalised):Shader Graphs Intro/Assets/shaders/Wave Foam.mat
+=======
+    - _QueueOffset: -50
+    - _Wave_Speed: 2.04
+    - _Wave_Strength: 0.01
+>>>>>>> parent of aa8e7fe (Merge branch 'main' of https://github.com/funkykhong/ShaderGraphs):Shader Graphs Intro/Assets/shaders/Wave Foam.mat
     m_Colors:
-    - _Base_COlour: {r: 0, g: 0.22735016, b: 0.6862745, a: 0.23529412}
+    - _Base_COlour: {r: 0, g: 0.11416588, b: 0.735849, a: 1}
     - _Foam_Velocity: {r: 0, g: 0, b: 0, a: 0}
-    - _Foam_colour: {r: 0.33748665, g: 0.7164292, b: 0.9056604, a: 1}
+    - _Foam_colour: {r: 0, g: 0.5117603, b: 0.6226415, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
